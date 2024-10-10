@@ -4,24 +4,24 @@ import Image from 'next/image';
 import img1 from '../img1.png'
 import img2 from '../img2.png'
 import img3 from '../img3.png'
-import seemoregif from "../Untitled.gif"
+// import seemoregif from "../Untitled.gif"
 import seemore from "../Untitled.gif"
 
 
 const Gallery = () => {
     const imgstyle = "rounded-md h-max"
-      const handleimgchange = () => {
-      alert("hi" + navigator.vibrate(200))
-      // console.log(e)
-    const e = document.getElementById('gif');
+    //   const handleimgchange = () => {
+    //   alert("hi" + navigator.vibrate(200))
+    //   // console.log(e)
+    // const e = document.getElementById('gif');
 
-    if (e.getAttribute('src') === seemore) {
-        // e.getAttribute('src') = img3;
-      console.log(e.src);
-    } else {
-      console.log(e.src);
-    }
-    }
+    // if (e.getAttribute('src') === seemore) {
+    //     // e.getAttribute('src') = img3;
+    //   console.log(e.src);
+    // } else {
+    //   console.log(e.src);
+    // }
+    // }
   return (
     <div className='w-screen h-screen flex justify-center items-center' id='Gallery'>
               <div className="w-[80%] h-[80%]">
