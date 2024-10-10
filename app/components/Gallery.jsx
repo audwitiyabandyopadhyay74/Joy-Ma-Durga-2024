@@ -5,7 +5,7 @@ import img1 from '../img1.png'
 import img2 from '../img2.png'
 import img3 from '../img3.png'
 // import seemoregif from "../Untitled.gif"
-import seemore from "../Untitled.gif"
+// import seemore from "../Untitled.gif"
 
 
 const Gallery = () => {
