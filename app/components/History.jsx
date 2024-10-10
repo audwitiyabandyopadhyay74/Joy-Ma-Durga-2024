@@ -1,5 +1,5 @@
 import React from 'react';
-import Imagesrc from '/Users/audwi/Pictures/Durga-Puja.png'
+import Imagesrc from '../Durga-Puja.png'
 import Image from 'next/image';
 
 const History = () => {
